@@ -1,0 +1,250 @@
+DEBUG:py_spyder:Iterating on zone with zone_code 010000
+DEBUG:py_spyder:Iterating on zone with zone_code 020000
+DEBUG:py_spyder:Iterating on zone with zone_code 030200
+DEBUG:py_spyder:Iterating on zone with zone_code 040000
+DEBUG:py_spyder:Iterating on zone with zone_code 180200
+DEBUG:py_spyder:Iterating on zone with zone_code 200200
+DEBUG:py_spyder:Iterating on zone with zone_code 080200
+DEBUG:py_spyder:Iterating on zone with zone_code 070200
+DEBUG:py_spyder:Iterating on zone with zone_code 090200
+DEBUG:py_spyder:Iterating on zone with zone_code 060000
+DEBUG:py_spyder:Iterating on zone with zone_code 030800
+DEBUG:py_spyder:Iterating on zone with zone_code 230300
+DEBUG:py_spyder:Iterating on zone with zone_code 230200
+DEBUG:py_spyder:Iterating on zone with zone_code 070300
+DEBUG:py_spyder:Iterating on zone with zone_code 250200
+DEBUG:py_spyder:Iterating on zone with zone_code 190200
+DEBUG:py_spyder:Iterating on zone with zone_code 150200
+DEBUG:py_spyder:Iterating on zone with zone_code 080300
+DEBUG:py_spyder:Iterating on zone with zone_code 170200
+DEBUG:py_spyder:Iterating on zone with zone_code 050000
+DEBUG:py_spyder:Iterating on zone with zone_code 120300
+DEBUG:py_spyder:Iterating on zone with zone_code 120200
+DEBUG:py_spyder:Iterating on zone with zone_code 220200
+DEBUG:py_spyder:Iterating on zone with zone_code 240200
+DEBUG:py_spyder:Iterating on zone with zone_code 110200
+DEBUG:py_spyder:Iterating on jobs with zone_code 190200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 020000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 090200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 010000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 200200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 150200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 060000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 250200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 170200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 050000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 180200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 040000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030800 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 220200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 240200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 110200 and page_id 1
+DEBUG:py_spyder:Iterating on zone with zone_code 010000
+DEBUG:py_spyder:Iterating on zone with zone_code 020000
+DEBUG:py_spyder:Iterating on zone with zone_code 030200
+DEBUG:py_spyder:Iterating on zone with zone_code 040000
+DEBUG:py_spyder:Iterating on zone with zone_code 180200
+DEBUG:py_spyder:Iterating on zone with zone_code 200200
+DEBUG:py_spyder:Iterating on zone with zone_code 080200
+DEBUG:py_spyder:Iterating on zone with zone_code 070200
+DEBUG:py_spyder:Iterating on zone with zone_code 090200
+DEBUG:py_spyder:Iterating on zone with zone_code 060000
+DEBUG:py_spyder:Iterating on zone with zone_code 030800
+DEBUG:py_spyder:Iterating on zone with zone_code 230300
+DEBUG:py_spyder:Iterating on zone with zone_code 230200
+DEBUG:py_spyder:Iterating on zone with zone_code 070300
+DEBUG:py_spyder:Iterating on zone with zone_code 250200
+DEBUG:py_spyder:Iterating on zone with zone_code 190200
+DEBUG:py_spyder:Iterating on zone with zone_code 150200
+DEBUG:py_spyder:Iterating on zone with zone_code 080300
+DEBUG:py_spyder:Iterating on zone with zone_code 170200
+DEBUG:py_spyder:Iterating on zone with zone_code 050000
+DEBUG:py_spyder:Iterating on zone with zone_code 120300
+DEBUG:py_spyder:Iterating on zone with zone_code 120200
+DEBUG:py_spyder:Iterating on zone with zone_code 220200
+DEBUG:py_spyder:Iterating on zone with zone_code 240200
+DEBUG:py_spyder:Iterating on zone with zone_code 110200
+DEBUG:py_spyder:Iterating on jobs with zone_code 030200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030800 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 250200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 200200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 040000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 190200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 060000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 180200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 170200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 220200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 150200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 090200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 110200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 020000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 050000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 240200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 010000 and page_id 1
+DEBUG:py_spyder:Iterating on zone with zone_code 010000
+DEBUG:py_spyder:Iterating on zone with zone_code 020000
+DEBUG:py_spyder:Iterating on zone with zone_code 030200
+DEBUG:py_spyder:Iterating on zone with zone_code 040000
+DEBUG:py_spyder:Iterating on zone with zone_code 180200
+DEBUG:py_spyder:Iterating on zone with zone_code 200200
+DEBUG:py_spyder:Iterating on zone with zone_code 080200
+DEBUG:py_spyder:Iterating on zone with zone_code 070200
+DEBUG:py_spyder:Iterating on zone with zone_code 090200
+DEBUG:py_spyder:Iterating on zone with zone_code 060000
+DEBUG:py_spyder:Iterating on zone with zone_code 030800
+DEBUG:py_spyder:Iterating on zone with zone_code 230300
+DEBUG:py_spyder:Iterating on zone with zone_code 230200
+DEBUG:py_spyder:Iterating on zone with zone_code 070300
+DEBUG:py_spyder:Iterating on zone with zone_code 250200
+DEBUG:py_spyder:Iterating on zone with zone_code 190200
+DEBUG:py_spyder:Iterating on zone with zone_code 150200
+DEBUG:py_spyder:Iterating on zone with zone_code 080300
+DEBUG:py_spyder:Iterating on zone with zone_code 170200
+DEBUG:py_spyder:Iterating on zone with zone_code 050000
+DEBUG:py_spyder:Iterating on zone with zone_code 120300
+DEBUG:py_spyder:Iterating on zone with zone_code 120200
+DEBUG:py_spyder:Iterating on zone with zone_code 220200
+DEBUG:py_spyder:Iterating on zone with zone_code 240200
+DEBUG:py_spyder:Iterating on zone with zone_code 110200
+DEBUG:py_spyder:Iterating on jobs with zone_code 020000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 190200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 050000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 040000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030800 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 170200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 060000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 200200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 220200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 110200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 240200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 090200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 180200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 150200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 010000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 250200 and page_id 1
+DEBUG:py_spyder:Iterating on zone with zone_code 010000
+DEBUG:py_spyder:Iterating on zone with zone_code 020000
+DEBUG:py_spyder:Iterating on zone with zone_code 030200
+DEBUG:py_spyder:Iterating on zone with zone_code 040000
+DEBUG:py_spyder:Iterating on zone with zone_code 180200
+DEBUG:py_spyder:Iterating on zone with zone_code 200200
+DEBUG:py_spyder:Iterating on zone with zone_code 080200
+DEBUG:py_spyder:Iterating on zone with zone_code 070200
+DEBUG:py_spyder:Iterating on zone with zone_code 090200
+DEBUG:py_spyder:Iterating on zone with zone_code 060000
+DEBUG:py_spyder:Iterating on zone with zone_code 030800
+DEBUG:py_spyder:Iterating on zone with zone_code 230300
+DEBUG:py_spyder:Iterating on zone with zone_code 230200
+DEBUG:py_spyder:Iterating on zone with zone_code 070300
+DEBUG:py_spyder:Iterating on zone with zone_code 250200
+DEBUG:py_spyder:Iterating on zone with zone_code 190200
+DEBUG:py_spyder:Iterating on zone with zone_code 150200
+DEBUG:py_spyder:Iterating on zone with zone_code 080300
+DEBUG:py_spyder:Iterating on zone with zone_code 170200
+DEBUG:py_spyder:Iterating on zone with zone_code 050000
+DEBUG:py_spyder:Iterating on zone with zone_code 120300
+DEBUG:py_spyder:Iterating on zone with zone_code 120200
+DEBUG:py_spyder:Iterating on zone with zone_code 220200
+DEBUG:py_spyder:Iterating on zone with zone_code 240200
+DEBUG:py_spyder:Iterating on zone with zone_code 110200
+DEBUG:py_spyder:Iterating on jobs with zone_code 040000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 090200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 020000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 190200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 070200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 060000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 150200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 010000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 200200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 250200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 030800 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 180200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 230200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 220200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 120300 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 170200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 050000 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 110200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 080200 and page_id 1
+DEBUG:py_spyder:Iterating on jobs with zone_code 240200 and page_id 1
+DEBUG:py_spyder:Iterating on zone with zone_code 010000
+DEBUG:py_spyder:Iterating on zone with zone_code 020000
+DEBUG:py_spyder:Iterating on zone with zone_code 030200
+DEBUG:py_spyder:Iterating on zone with zone_code 040000
+DEBUG:py_spyder:Iterating on zone with zone_code 180200
+DEBUG:py_spyder:Iterating on zone with zone_code 200200
+DEBUG:py_spyder:Iterating on zone with zone_code 080200
+DEBUG:py_spyder:Iterating on zone with zone_code 070200
+DEBUG:py_spyder:Iterating on zone with zone_code 090200
+DEBUG:py_spyder:Iterating on zone with zone_code 060000
+DEBUG:py_spyder:Iterating on zone with zone_code 030800
+DEBUG:py_spyder:Iterating on zone with zone_code 230300
+DEBUG:py_spyder:Iterating on zone with zone_code 230200
+DEBUG:py_spyder:Iterating on zone with zone_code 070300
+DEBUG:py_spyder:Iterating on zone with zone_code 250200
+DEBUG:py_spyder:Iterating on zone with zone_code 190200
+DEBUG:py_spyder:Iterating on zone with zone_code 150200
+DEBUG:py_spyder:Iterating on zone with zone_code 080300
+DEBUG:py_spyder:Iterating on zone with zone_code 170200
+DEBUG:py_spyder:Iterating on zone with zone_code 050000
+DEBUG:py_spyder:Iterating on zone with zone_code 120300
+DEBUG:py_spyder:Iterating on zone with zone_code 120200
+DEBUG:py_spyder:Iterating on zone with zone_code 220200
+DEBUG:py_spyder:Iterating on zone with zone_code 240200
+DEBUG:py_spyder:Iterating on zone with zone_code 110200
+DEBUG:py_spyder:Iterating on zone with zone_code 010000
+DEBUG:py_spyder:Iterating on zone with zone_code 020000
+DEBUG:py_spyder:Iterating on zone with zone_code 030200
+DEBUG:py_spyder:Iterating on zone with zone_code 040000
+DEBUG:py_spyder:Iterating on zone with zone_code 180200
+DEBUG:py_spyder:Iterating on zone with zone_code 200200
+DEBUG:py_spyder:Iterating on zone with zone_code 080200
+DEBUG:py_spyder:Iterating on zone with zone_code 070200
+DEBUG:py_spyder:Iterating on zone with zone_code 090200
+DEBUG:py_spyder:Iterating on zone with zone_code 060000
+DEBUG:py_spyder:Iterating on zone with zone_code 030800
+DEBUG:py_spyder:Iterating on zone with zone_code 230300
+DEBUG:py_spyder:Iterating on zone with zone_code 230200
+DEBUG:py_spyder:Iterating on zone with zone_code 070300
+DEBUG:py_spyder:Iterating on zone with zone_code 250200
+DEBUG:py_spyder:Iterating on zone with zone_code 190200
+DEBUG:py_spyder:Iterating on zone with zone_code 150200
+DEBUG:py_spyder:Iterating on zone with zone_code 080300
+DEBUG:py_spyder:Iterating on zone with zone_code 170200
+DEBUG:py_spyder:Iterating on zone with zone_code 050000
+DEBUG:py_spyder:Iterating on zone with zone_code 120300
+DEBUG:py_spyder:Iterating on zone with zone_code 120200
+DEBUG:py_spyder:Iterating on zone with zone_code 220200
+DEBUG:py_spyder:Iterating on zone with zone_code 240200
+DEBUG:py_spyder:Iterating on zone with zone_code 110200
