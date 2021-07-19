@@ -37,7 +37,6 @@ def iterate_zone(zone_code):
                               headers={"User-Agent": meta.get_user_agent(),
                                        "Cookie": meta.get_cookies()}).content.decode('utf-8')
     doc = BeautifulSoup(first_page, "lxml")
-    print(first_page)
     option = doc.select_one("select option:last-child")
     pages = int(1 if option is None else option.text)
 
@@ -90,6 +89,7 @@ def get_job_description(url, id):
 
 
 def check_pool():
+    print(pool)
     if len(pool) == 0 and len(jobs) > 0:
         save()
 

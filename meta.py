@@ -1,9 +1,9 @@
 def get_cookies():
-    return "ssxmod_itna2=QqRxyD2Qi=DQDtXK0dD=Ao47qiK6tODEEhMO8DGtG98DBdP7QUxq=yKGaiFnRL3pwI=HY9cMH0rNDjKD28YD; ssxmod_itna=QqfxgDR7iQIqnDlS6+dG=AMPCu8jij=7Ox0H7eGzDAxn40iDtPg/DGqDQrYgYegU22eibqUmunp5oNICORArYex0aDbqGkqiegFeDxoq0rD74irDDxD3Db3dDSDWKD9D0bSyuEXKGWDbo=Di4D+bkQDmqG0DDtFU4G2D7UnU7GCbw0LiWtYhkD4H7hnD0toxBd4tPTKracC0wiiPcPeBDDHSg9PRovkXgK4zBNTKqGyQKGuATUlR4RkOTXS/wv5Qxxo9xhXm+LdQBKqRODql+lzHDv1fG1deD==="
+    return "ssxmod_itna2=YqfhPUOK0KDKGHD8D2DEjKwEYto0QFYDnxnIqDsmDwrDGuLWfq03qYDgWuiYZFqIjWWUEwvNGgDruBUzVfrODYee1+Q3Piq8brKN5tYCqmqPkX/ab75QfhDxGcDYIqxD; acw_sc__v2=60f509ac1f43193fec3e42e0691d6c7228e97d62; ssxmod_itna=GqUODK0I4+xfxBPGKKmpDRmbm57K4oNGCjjDBMx4iNDnD8x7YDvGzpiG0t0Ct3tguqeitt=GxITPNIlnhvTGDAoDhx7QDox0=DnxAQDjoPiiuDCeDIDWeDiDG4H0hkuZ3DHD0b1X+sqi3DbEtDmqGnD7UyDGfEKlQ4L4DB820Lij6e7BGq9qGvmlL6WL=oUwhSIO2cbMpdUuW54lmuDB68xBj0/+NlGTt2SZUDcr+T0i4YtivxWt3KKYx5CDqNCYhmLID4KgDNADqTFU4KeD"
 
 
 def get_user_agent():
-    return "Mozilla/5.0 (iPhone; CPU Android 12_0_1_1) Android Web View 94.0.412.92391"
+    return "Mozilla/5.0 (Linux; Android 12.1; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4579.0 Mobile Safari/537.36"
 
 
 def get_zone_codes():
