@@ -66,7 +66,7 @@ for i in range(0, len(lines)):
     if "**************************************************【结束】**************************************************" in lines[i]:
         categorys.append(Category(tmp_title, tmp_unit, tmp_books))
 
-open("tmp.json","w",encoding="utf-8").write(str(categorys[0]))
+# open("tmp.json","w",encoding="utf-8").write(str(categorys[0]))
 
 for category in categorys:
     books = category.yearbooks
@@ -85,5 +85,5 @@ for category in categorys:
 
     result_frames=[ ['' if row[col] is None else row[col] for row in tmp_frame] for col in range(len(tmp_frame[0]))]
 
-    for i in range(0, 70):
+    for i in range(70, 0, -1):
         output.write("\n,,,"+str(1950+i)+","+','.join(result_frames[i]))
