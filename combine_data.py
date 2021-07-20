@@ -9,7 +9,7 @@ import os
 #         files.append(file_name)
 
 # for file_name in files:
-lines = open("./stats_files/出口总额数据.txt", "r").readlines()
+lines = open("./stats_files/出口总额数据.txt", "r", encoding='utf-8').readlines()
 
 
 class Category:
@@ -22,21 +22,22 @@ class Category:
         content = "["
         for i in range(0, len(self.yearbooks)-1):
             content += str(self.yearbooks[i])+","
+
         content += str(self.yearbooks[len(self.yearbooks)-1])+"]"
-        return "{'title':'"+self.title+"','unit':'"+self.unit+"','yearbook':"+content+"}"
+        return "{\"title\":\""+self.title+"\",\"unit\":\""+self.unit+"\",\"yearbooks\":"+content+"}"
 
 
 class Yearbook:
-    def __init__(self, name="", data_map=[None]*71):
+    def __init__(self, name, data_map):
         self.name = name
         self.data_map = data_map  # [yr: value, yr: value], [1950, 2020]
 
     def __str__(self) -> str:
-        content = "["
+        content = "{"
         for i in range(0, len(self.data_map)-1):
-            content += str(1950+i) + ":"+(self.data_map[i] if self.data_map[i] is not None else '')+","
-        content += "2020:"+self.data_map[70]+"]"
-        return "{'name':'"+self.name+"','data_map':'"+content+"'}"
+            content += "\""+str(1950+i) + "\":"+(self.data_map[i] if self.data_map[i] is not None else '-1')+","
+        content += "\"2020\":"+(self.data_map[70] if self.data_map[70] is not None else '-1')+"}"
+        return "{\"name\":\""+self.name+"\",\"data_map\":"+content+"}"
 
 
 categorys = []
@@ -44,47 +45,45 @@ tmp_books = []
 tmp_title = ""
 tmp_unit = ""
 for i in range(0, len(lines)):
-    tmp_book = Yearbook()
     if "**************************************************【开始】**************************************************" in lines[i]:
         tmp_title = re.search(r"^【(.+?)】$", lines[i+2]).group(1)
         tmp_unit = re.search(r"^【单位】：(.+?)$", lines[i+3]).group(1)
         tmp_books = []
-        tmp_book = Yearbook()
 
     if "------------------start----------------" in lines[i]:
-        tmp_book.name = lines[i+1][1:-2]
+        tmp_book = Yearbook(name=lines[i+1][1:-2], data_map=[None]*71)
         for j in range(i, len(lines)):
             if "------------------end------------------" not in lines[j]:
                 match = re.search(r"^(.+?)-(\d+?)年:(\d*\.?\d*)$", lines[j])
                 if match is not None:
                     tmp_book.data_map[int(match.group(2)) -
                                       1950] = match.group(3)
-            else:
+            if "------------------end------------------" in lines[j]:
                 tmp_books.append(tmp_book)
+                i=j
+                break
 
     if "**************************************************【结束】**************************************************" in lines[i]:
         categorys.append(Category(tmp_title, tmp_unit, tmp_books))
 
-open("tmp.txt","w").write(str(categorys[0]))
-# print(categorys[0])
+open("tmp.json","w",encoding="utf-8").write(str(categorys[0]))
 
-# for category in categorys:
-#     boos_len = len(category.yearbooks)
+for category in categorys:
+    books = category.yearbooks
+    books_len = len(books)
 
-#     output = open("./stats_files/output/"+category.title + ".csv", "w")
-#     output.write("title:"+category.title+",unit:"+category.unit+",,year")
-#     for yr_book in category.yearbooks:
-#         output.write(','+yr_book.name)
+    output = open("./stats_files/output/"+category.title + ".csv", "w", encoding="gbk")
+    output.write("title:"+category.title+",unit:"+category.unit+",,year")
 
-#     result_frames = [[None] * boos_len] * 71
+    for yr_book in books:
+        output.write(','+yr_book.name)
 
-#     for i in range(0, boos_len):
-#         book = category.yearbooks[i]
-#         for j in range(0,len(book.data_map)):
-#             result_frames[j][i]=book.data_map[j]
+    tmp_frame = []
 
-#     for i in range(0, len(result_frames)):
-#         frame=result_frames[i]
-#         output.write("\n,,,"+str(1950+i))
-#         for j in frame:
-#             output.write(','+str(j))
+    for j in range(0, books_len):
+        tmp_frame.append(books[j].data_map)
+
+    result_frames=[ ['' if row[col] is None else row[col] for row in tmp_frame] for col in range(len(tmp_frame[0]))]
+
+    for i in range(0, 70):
+        output.write("\n,,,"+str(1950+i)+","+','.join(result_frames[i]))
