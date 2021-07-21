@@ -54,7 +54,7 @@ for i in range(0, len(lines)):
         tmp_book = Yearbook(name=lines[i+1][1:-2], data_map=[None]*71)
         for j in range(i, len(lines)):
             if "------------------end------------------" not in lines[j]:
-                match = re.search(r"^(.+?)-(\d+?)年:(\d*\.?\d*)$", lines[j])
+                match = re.search(r"^(.+?)-(\d+?)年:(-?\d*\.?\d*)$", lines[j])
                 if match is not None:
                     tmp_book.data_map[int(match.group(2)) -
                                       1950] = match.group(3)
