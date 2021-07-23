@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from parser import expr
 import pandas as pd
 import re
 
@@ -91,6 +90,17 @@ def normalize_salary(df):
     print(df.describe())
     return df
 
+def normalize_company_type(df):
+    for index,row in df.iterrows():
+        val = row['Company Type']
+        if "外资" in val or "合资" in val:
+            df.at[index, 'Company Type'] = '外资/合资'
+        else:
+            df.at[index, 'Company Type'] = '非外资/合资'
+
+    df.to_csv("jobs-exported.csv",index=False)
+    return df
+
 def extract_experience(df):
     df['Experience']="无需经验"
     for index,row in df.iterrows():
@@ -133,10 +143,27 @@ def extract_degree(df):
                 
     df.to_csv("jobs-exported.csv",index=False)
     return df
+
+def classification(df):
+    df['Type'] = "数据分析师"
+    for index,row in df.iterrows():
+        if "高级" in row['Title']:
+            df.at[index, 'Type'] = "高级分析师"
+        elif "工程" in row['Title']:
+            df.at[index, 'Type'] = "数据工程师"
+
+    df.to_csv("jobs-exported.csv",index=False)
+    return df
+
+def preprocess_column_name(df):
+    tmp = df.drop(['Title', 'Salary', 'Degree And Experience', 'Company', 'Publish Date', 'Description'], axis=1)
         
 df = delete_null(df)
 df = drop_duplicates(df)
 df = normalize_zone(df)
 df = normalize_salary(df)
+df = normalize_company_type(df)
 df = extract_experience(df)
 df = extract_degree(df)
+preprocess_column_name(df)
+print(classification(df))
